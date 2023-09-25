@@ -1,0 +1,51 @@
+@import './libs/fonts';
+
+@import './vars/colors';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+a {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media(max-width: 1444px) {
+    .container {
+        width: 991px;
+    }
+}
+
+// @media(max-width: 1200px) {
+//     .container {
+//         width: 786px;
+//     }
+// }
+
+// @media(max-width: 991px) {
+//     .container {
+//         width: 640px;
+//     }
+// }
+
+// @media(max-width: 786px) {
+//     .container {
+//         width: 480px;
+//     }
+// }
+
+// @media(max-width: 640px) {
+//     .container {
+//         width: 90%;
+//     }
+// }
