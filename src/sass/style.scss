@@ -2,6 +2,7 @@
 
 @import './vars/colors';
 
+@import './blocks/header';
 
 * {
     padding: 0;
@@ -16,36 +17,8 @@ a {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
+    padding: 0 80px;
 }
-
-@media(max-width: 1444px) {
-    .container {
-        width: 991px;
-    }
-}
-
-// @media(max-width: 1200px) {
-//     .container {
-//         width: 786px;
-//     }
-// }
-
-// @media(max-width: 991px) {
-//     .container {
-//         width: 640px;
-//     }
-// }
-
-// @media(max-width: 786px) {
-//     .container {
-//         width: 480px;
-//     }
-// }
-
-// @media(max-width: 640px) {
-//     .container {
-//         width: 90%;
-//     }
-// }
